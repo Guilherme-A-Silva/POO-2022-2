@@ -15,7 +15,7 @@ public class UERNBets {
    	 quartasFinal2.setResultado(Resultado.TIME2);
    	 if(aposta1.getResultado() == quartasFinal1.getResultado())
    		 System.out.println("O apostador ganhou R$ " +
-   			 aposta1.calculaLucro(quartasFinal1));
+   			 aposta1.CalcularLucro(quartasFinal1));
    	 else
    		 System.out.println("O apostador perdeu R$ " + 
                      aposta1.getValorAposta());
